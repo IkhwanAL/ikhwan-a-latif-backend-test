@@ -17,10 +17,13 @@ function main() {
     }
   }
 
+
+  let total = 0
   for (const v of selfNumber) {
-    console.log(v)
+    total += v
   }
 
+  console.log(total)
 }
 
 function d(num) {
